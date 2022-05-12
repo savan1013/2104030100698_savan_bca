@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .form-div{
+            padding: 20px;
+            /* border: 5px solid red; */
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        form{
+            border: 2px solid lightcoral;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+        h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+        <div class="form-div">
+            <form action="action.php">
+                <h2>Register Yourself</h2>
+                <span>Name : </span><input type="text"/>
+                <span>D-O-B : </span><input type="date"/>
+                <span>Mobile No : </span><input type="number"/>
+                <span>Message : </span><textarea name="" id="" cols="30" rows="10"></textarea>
+                <span>File :</span><input type="file" name="" id="">
+            </form>
+        </div>
+        
+</body>
+</html>
