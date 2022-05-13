@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arjun's Page</title>
+    
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(to right, #0575e6, #021b79);
+        }
+
+        .top-nav {
+            font-family: 'Josefin Sans', sans-serif;
+            height: 70px;
+            color: white;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #112B3C;
+        }
+
+        .logo {
+            align-items: center;
+            display: flex;
+            font-size: 1.5em;
+        }
+
+        span{
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        .top-menu {
+            display: flex;
+        }
+
+        .top-nav ul {
+            list-style-type: none;
+        }
+
+        a{  
+            color: aliceblue;
+            text-decoration: none;
+
+        }
+
+        .top-nav ul li {
+            padding: 15px;
+            margin: 0px 10px;
+            background-color: white;
+            color: black;
+            border: white 2px solid;
+        }
+
+        .active,
+        .top-nav ul li:hover {
+            background-color: transparent;
+            
+            transition: ease-in-out 0.3s;
+            color: white;
+        }
+
+        .youtube-video {
+            width: 100%;
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+
+        .head {
+            color: rgb(255, 255, 255);
+            margin: 100px auto 50px;
+            font-size: 2em;
+            font-family: 'Josefin Sans', sans-serif;
+            text-transform: uppercase;
+        }
+        
+        iframe {
+            margin-top: 50px;
+        }
+
+        .vid-con {
+            border: rgb(119, 255, 91) 5px groove;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-nav">
+        <div class="logo">
+            <h2>Trendsetters |&nbsp;</h2><span>grow with us</span>
+        </div>
+        <div>
+            <ul class="top-menu">
+                <li class="active">Home</li>
+                <li>Portfolio</li>
+                <li>About</li>
+                <a href="my-form.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <marquee scrollamount="40">
+        <h2 class="head">Todays top news</h2>
+
+    </marquee>
+
+    <hr>
+
+    <div class="youtube-video">
+
+        <iframe class="vid-con" width="500" height="280" src="https://www.youtube.com/embed/j9VOQZX5btA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe class="vid-con" width="500" height="280" src="https://www.youtube.com/embed/1NdZzuBv5Hs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe class="vid-con" width="500" height="280" src="https://www.youtube.com/embed/qkxuFKqJXWY"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe class="vid-con" width="500" height="280" src="https://www.youtube.com/embed/33-CQdPHyjw"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe class="vid-con" width="500" height="280" src="https://www.youtube.com/embed/4ydUBnnaU2I"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+
+</body>
+
+</html>
